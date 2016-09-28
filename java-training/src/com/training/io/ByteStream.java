@@ -7,5 +7,8 @@ package com.training.io;
  */
 public class ByteStream {
 
-	
+	public void main(String[]args){
+	    
+	    System.out.println("冲突test")
+	}
 }

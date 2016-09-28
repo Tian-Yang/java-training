@@ -9,6 +9,6 @@ public class ByteStream {
 
 	public void main(String[]args){
 	    
-	    System.out.println("冲突test")
+	    System.out.println("冲突test1")
 	}
 }

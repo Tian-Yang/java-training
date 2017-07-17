@@ -21,14 +21,17 @@ public class ObjectDate {
 		return fastTime;
 	}
 	
-	
+	public static void test(){
+		System.out.println("static test....");
+	}
+
 
 	public static void main(String[] args) {
 		Date d = new Date();
 		
 		ObjectDate  dt = new ObjectDate();
 		
-		System.out.println(dt.getTime());
+		dt.test();
 		
 	}
 }

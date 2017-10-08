@@ -12,15 +12,16 @@ public class Apple extends Fruit {
 	private String age;
 
 	@Override
-	void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
-	void getName(){
+	public void getName(){
 		System.out.println("apple");
 	}
 
 	public String getAge() {
+		System.out.println(18);
 		return "18";
 	}
 	

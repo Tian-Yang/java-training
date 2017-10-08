@@ -43,8 +43,8 @@ public class ReflectTest {
 		}
 		
 		try {
-		
-			Apple.class.getMethod("getName", null).invoke(null);
+			System.out.println("断点");
+			Apple.class.getMethod("getAge").invoke(new Apple());
 			
 		} catch (IllegalAccessException e) {
 			// TODO Auto-generated catch block

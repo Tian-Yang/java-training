@@ -8,9 +8,18 @@ package com.training.generic;
  */
 public abstract class Fruit {
 
-	protected String name;
+	public String name;
 
 	abstract void setName(String name);
+	
+	abstract void getPrice();
+	
+	abstract void getName();
+
+	public <T extends Fruit> void juice(T t) {
+		t.getName();
+		t.getPrice();
+	}
 
 	@Override
 	public String toString() {

@@ -7,7 +7,7 @@ package com.training.generic;
  */
 public class Apple extends Fruit {
 	
-	public String name;
+	private String name;
 	
 	private String age;
 
@@ -17,12 +17,17 @@ public class Apple extends Fruit {
 	}
 	
 	public void getName(){
-		System.out.println("apple");
+		System.out.println(this.name);
 	}
 
 	public String getAge() {
 		System.out.println(18);
 		return "18";
+	}
+
+	@Override
+	void getPrice() {
+		System.out.println("5毛");
 	}
 	
 	
